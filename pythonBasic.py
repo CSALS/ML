@@ -124,9 +124,9 @@ except ValueError: #what errors might occur
 #each file is called module which can re-used anywhere
 
 #Importing entire module
-# import moduleBasic #moduleBasic is object
+import moduleBasic #moduleBasic is object
 
-# print(moduleBasic.sayHello())
+print(moduleBasic.sayHello())
 
 #Importing specific functions in the module
 import moduleBasic
@@ -164,3 +164,4 @@ from ecommer import shipping
 #  Conventionally, Python developers will write the results of `pip freeze` into a file named `requirements.txt` in the root of the project, but `pip` won't 
 #  update this file for you when you install new packages, unfortunately. This gets added and committed to source control, just like `package.json`, and 
 #  the `pip install` command accepts such a file with the `-r` flag. It's a manual process
+
